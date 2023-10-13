@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap');
+ *{
+    font-family: 'Almarai', sans-serif;
+ }
+ nav{
+   background-color: aquamarine;
+ }
+ body {
+   background:lightblue;
+   animation:changebg infinite 15s;
+}
+
+@keyframes changebg{
+   0% {background:lightblue;}
+   33% {background:lightgreen;}
+   66% {background:rgb(253, 253, 152);}
+   100% {background:lightblue;}
+}

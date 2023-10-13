@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@800&display=swap');
+
+
+nav{
+    font-family: 'Almarai', sans-serif;
+}
+/* Reset default styles for the list */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    background-color: #333; /* Background color of the menu */
+    display: flex; /* Display links in a horizontal line */
+    justify-content: space-around; /* Distribute links evenly */
+    padding: 10px 0;
+}
+
+/* Style the navigation links */
+nav li {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none; /* Remove underlines from links */
+    color: white; /* Text color of the links */
+    padding: 10px 20px; /* Spacing around links */
+}
+
+/* Change the link color when hovered */
+nav a:hover {
+    background-color: #240c66af; /* Background color when hovered */
+}
+
+/* Add responsive styling for smaller screens */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Display links vertically on smaller screens */
+    }
+}
+ 
+body {
+    background:lightblue;
+    animation:changebg infinite 15s;
+}
+
+@keyframes changebg{
+    0% {background:lightblue;}
+    33% {background:lightgreen;}
+    66% {background:rgb(253, 253, 152);}
+    100% {background:lightblue;}
+}
+.h{
+    font-family: 'Almarai', sans-serif;
+}
+.in{
+    transition: 0.9s;
+    cursor: pointer;
+}
+.in:hover{
+    opacity: 0.3;
+    
+}
