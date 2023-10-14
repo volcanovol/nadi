@@ -60,6 +60,7 @@ body {
 .in{
     transition: 0.9s;
     cursor: pointer;
+    color: black;
 }
 .in:hover{
     opacity: 0.3;
